@@ -1,0 +1,44 @@
+{
+  "name": "printly",
+  "version": "0.0.1",
+  "description": "A flexible logging library for JavaScript/TypeScript that allows customizable log levels and enhanced logging features.",
+  "private": false,
+  "homepage": "https://github.com/onurartan/printly",
+  "repository": {
+    "url": "https://github.com/onurartan/printly"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "ts-node src/test.print.ts",
+    "build": "tsup src/index.ts"
+  },
+  "keywords": [
+    "logging",
+    "logger",
+    "typescript",
+    "javascript",
+    "console",
+    "debug",
+    "log levels",
+    "custom logging",
+    "developer tools"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.17",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
+  },
+  "dependencies": {
+    "callsites": "^4.2.0",
+    "tslib": "^2.8.1"
+  }
+}
