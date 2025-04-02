@@ -104,3 +104,5 @@ const isUserLoggedIn = false;
 document.querySelector("#conditionalLog")!.addEventListener("click", () => {
   print.if(isUserLoggedIn, "User is logged in!", "User is not logged in.");
 });
+
+
